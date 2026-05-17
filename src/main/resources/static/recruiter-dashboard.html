@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Recruiter Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <div class="sidebar">
+
+        <h2>Recruiter Panel</h2>
+
+        <ul>
+
+            <li>Add Job</li>
+
+            <li>Manage Jobs</li>
+
+            <li>Applicants</li>
+
+            <li>Logout</li>
+
+        </ul>
+
+    </div>
+
+    <div class="main-content">
+
+        <h1>Recruiter Dashboard</h1>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <h3>Total Jobs</h3>
+
+                <p>12</p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Total Applicants</h3>
+
+                <p>45</p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Shortlisted</h3>
+
+                <p>10</p>
+
+            </div>
+
+        </div>
+
+        <div class="upload-box">
+
+            <h2>Add New Job</h2>
+
+            <input type="text" id="title" placeholder="Job Title">
+
+            <input type="text" id="company" placeholder="Company Name">
+
+            <input type="text" id="skills" placeholder="Required Skills">
+
+            <input type="text" id="salary" placeholder="Salary">
+
+            <textarea id="description" placeholder="Job Description"></textarea>
+
+            <button type="button" onclick="addJob()">
+
+                Add Job
+
+            </button>
+
+        </div>
+
+        <h2>Recent Jobs</h2>
+
+        <div class="job-container">
+
+            <div class="job-card">
+
+                <h3>Backend Developer</h3>
+
+                <p>Company: Wipro</p>
+
+                <p>Skills: Java, Spring Boot</p>
+
+                <p>Applicants: 12</p>
+
+            </div>
+
+            <div class="job-card">
+
+                <h3>UI/UX Designer</h3>
+
+                <p>Company: Zoho</p>
+
+                <p>Skills: Figma, Adobe XD</p>
+
+                <p>Applicants: 8</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
